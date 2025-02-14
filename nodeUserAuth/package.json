@@ -1,0 +1,15 @@
+{
+  "name": "nodeuserauth",
+  "version": "1.0.0",
+  "description": "// iniciar proyecto node npm init -y // instalar express sin el \"^\" caret sino la version exacta npm install express -E   // instalar standard npm install standard -D // instalar autenticacion usar secret i guardar seguro npm install -s express-jwt jsonwebtoken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
