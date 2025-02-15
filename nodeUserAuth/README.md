@@ -15,3 +15,10 @@
 npm init -y
 // instalar express sin el "^" caret sino la version exacta
 npm install express -E  
+// para no cometer errores en el codigo(Desarrllo)
+npm install standard -D
+// instalar una base de datos local pequena
+npm install db-local
+// instalar bcrypt para esconder los datos de la bd'
+npm install bcrypt
+

@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "// iniciar proyecto node npm init -y // instalar express sin el \"^\" caret sino la version exacta npm install express -E   // instalar standard npm install standard -D // instalar autenticacion usar secret i guardar seguro npm install -s express-jwt jsonwebtoken",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "db-local": "^3.1.0",
     "express": "4.21.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
   }
 }
